@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moment Distribution Method</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Frame Analysis: Moment Distribution Method</h1>
+    </header>
+    <main>
+        <section id="input-section">
+            <h2>Input Parameters</h2>
+            <label for="span">Span Length (m): </label>
+            <input type="number" id="span" placeholder="Enter span length"><br><br>
+            <label for="load">Applied Load (kN): </label>
+            <input type="number" id="load" placeholder="Enter load value"><br><br>
+            <button id="calculate">Calculate Moments</button>
+        </section>
+
+        <section id="results-section">
+            <h2>Results</h2>
+            <div id="results"></div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Moment Distribution Analysis Tool</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
